@@ -1,0 +1,61 @@
+name: ".unifire"
+description: ".unifire is a magick"
+encoding: UTF-8
+markdown: kramdown
+url: "https://docs.unifire.app"
+exclude:
+  - src
+  - bin
+remote_theme: bzick/jekyll-docs-theme
+
+# theme configuration
+
+ui:
+  mode: 'dark' # 'auto', 'dark', 'light'
+
+project:
+  download_url: https://github.com/unifire-app/unifire/releases
+  download_text: Download
+
+license:
+  software: BSD 3 Clause
+  software_url: https://opensource.org/licenses/BSD-3-Clause
+
+  docs: CC BY 3.0
+  docs_url: https://creativecommons.org/licenses/by/3.0/
+
+links:
+  pages:
+    - title: Use cacsed
+      url: /configuration
+    - title: Templating
+      url: /templating
+    - title:
+      url: /api
+  header:
+    - title: '<img src="https://travis-ci.org/unifire-app/unifire.svg?branch=master" />'
+      url: https://travis-ci.org/unifire-app/aspect
+    - title: '<img src="https://codecov.io/gh/unifire-app/unifire/branch/master/graph/badge.svg" />'
+      url: https://codecov.io/gh/unifire-app/aspect
+    - title: '<img src="/assets/luarocks.svg" />'
+      url: https://luarocks.org/modules/unifire/aspect
+  footer:
+    - title: GitHub
+      icon: github
+      brand: true
+      url: https://github.com/unifire-app/unifire
+    - title: Issues
+      icon: bug
+      url: https://github.com/unifire-app/unifire/issues?state=open
+  homepage:
+    - title: View on GitHub
+      icon: github
+      brand: true
+      url: https://github.com/unifire-app/unifire
+social:
+  github:
+    user: unifire-app
+    repo: unifire
+
+icons:
+  favicon: assets/unifire.png
